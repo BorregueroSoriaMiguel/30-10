@@ -1,4 +1,4 @@
-/*Este método sirve para insertar varios documentos en la colección de una bas de datos.*/
+/*Este método sirve para insertar varios documentos en la colección de una base de datos.*/
 db.inventory.insertMany([
     { item: "agenda", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A" },
     { item: "cuaderno", qty: 50, size: { h: 8.5, w: 11, uom: "in" }, status: "A" },
